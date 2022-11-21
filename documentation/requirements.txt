@@ -9,8 +9,12 @@ Functional :
 3. It should not block scheduling new task in case of over running task.
 4. Proper status update should happen along with storing relevant details.
 5. Some jobs would be dependent on previous job - ensure prerequisite job is completed before triggering dependent job.
-6. In case a job exceeds a threshold execution time then an alert needs to be raised.
+6. Descriptors : seconds, minute, hour
+7. In case a job exceeds a threshold execution time then an alert needs to be raised.
 
 Non Functional :
 1. Must have unit test cases
 2. No external library has to be used
+
+End goal :
+Publish it such that it can be used.
