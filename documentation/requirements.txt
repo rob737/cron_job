@@ -11,6 +11,7 @@ Functional :
 5. Some jobs would be dependent on previous job - ensure prerequisite job is completed before triggering dependent job.
 6. Descriptors : seconds, minute, hour
 7. In case a job exceeds a threshold execution time then an alert needs to be raised.
+8. Recurring task or one time execution.
 
 Non Functional :
 1. Must have unit test cases
