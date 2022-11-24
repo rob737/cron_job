@@ -10,4 +10,15 @@
  * 1. we need server to host our code
  * 2. Understand how connections are being made
  * 3. Understand how request is being parsed and understood
+ * 4. Understand how response is being transferred and received by the client
  */
+
+// figure out how require actually works
+const http = require("http");
+const { host, port } = require("./constant/startup_configurations");
+
+// it should create a process to listen to request
+http.createServer;
+// it should parse request
+
+// it should return response

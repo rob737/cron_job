@@ -1,0 +1,4 @@
+1. understand exports
+2. understand new
+3. understand instanceOf 
+4. understand typeOf
