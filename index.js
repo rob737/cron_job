@@ -18,7 +18,13 @@ const http = require("http");
 const { host, port } = require("./constant/startup_configurations");
 
 // it should create a process to listen to request
-http.createServer;
+
+const server = http.createServer((argReq, argRes) => {
+  console.log(argReq);
+  argRes.end(JSON.stringify({ data: "Ok" }));
+});
+
+server.listen(port, host);
 // it should parse request
 
 // it should return response
