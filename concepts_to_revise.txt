@@ -2,4 +2,6 @@
 2. understand new
 3. understand instanceOf 
 4. understand typeOf
-4. understand call
+5. understand call
+6. understand module
+7. understand oops
