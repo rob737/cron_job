@@ -5,3 +5,5 @@
 5. understand call
 6. understand module
 7. understand oops
+8. understand this
+9. understand apply
